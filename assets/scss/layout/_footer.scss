@@ -1,4 +1,30 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+footer {
+  background-color: #AA0601;
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+
+.footer .link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .nav-links {
+  width: 512px;
+}
+
+.footer .nav-links ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .social-links {
+  width: 208px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .social-links img {
+  max-width: 48px;
 }
